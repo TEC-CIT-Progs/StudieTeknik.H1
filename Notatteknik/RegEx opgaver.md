@@ -1,8 +1,81 @@
 # 1. RegEx opgaver
 
-De næste opgaver løses på https://extendsclass.com/regex-tester.html
+__Kopier svarene ind i en tekst fil.__
+## 1.9. Check match `/ab+c?/`
 
-Kopier svarene ind i en tekst fil.
+Hvilke af følgende strenge matcher mønstret `/ab+c?/` ?
+
+1. abc
+2. ac
+3. abbb
+4. bbc
+
+## 1.10. Check match `/a.[bc]+/`
+
+Hvilke af følgende strenge matcher mønstret `/a.[bc]+/` ?
+
+1. abc
+2. abbbbbbbb
+3. azc
+4. abcbcbcbc
+5. ac
+6. asccbbbbcbcccc
+
+## 1.11. Check match `/abc|xyz/`
+
+Hvilke af følgende strenge matcher mønstret `/abc|xyz/` ?
+
+1. abc
+2. xyz
+3. abc|xyz
+
+## 1.12. Check match `/[a-z]+[\.\?!]/`
+
+Hvilke af følgende strenge matcher mønstret `/[a-z]+[\.\?!]/` ?
+
+1. battle!
+2. Hot
+3. green
+4. swamping.
+5. jump up.
+6. undulate?
+7. is.?
+
+## 1.13. Check match `/[a-zA-Z]*[^,]=/`
+
+Hvilke af følgende strenge matcher mønstret `/[a-zA-Z]*[^,]=/` ?
+
+1. Butt=
+2. BotHEr,=
+3. Ample
+4. FIdD1E7h=
+5. Brittle =
+6. Other.=
+
+## 1.14. Check match `/[a-z][\.\?!]\s+[A-Z]/`
+
+Hvilke af følgende strenge matcher mønstret `/[a-z][\.\?!]\s+[A-Z]/` ?
+
+1. A. B
+2. c! d
+3. e f
+4. g.  H
+5. i? J
+6. k L
+
+## 1.15. Check match `/<[^>]+>/`
+
+Hvilke af følgende strenge matcher mønstret `/<[^>]+>/` ?
+```
+   1. <an xml tag>
+   2. <opentag><closetag>
+   3. </closetag>
+   4. <>
+   5. <with attribute="77">
+```
+
+
+De næste opgaver løses på https://extendsclass.com/regex-tester.html
 
 ## 1.1. Drengene
 
@@ -86,76 +159,4 @@ Hvilke for brugernavne?
 
 find selv flere, anderledes varianter
 
-## 1.9. Check match `/ab+c?/`
-
-Hvilke af følgende strenge matcher mønstret `/ab+c?/` ?
-
-1. abc
-2. ac
-3. abbb
-4. bbc
-
-## 1.10. Check match `/a.[bc]+/`
-
-Hvilke af følgende strenge matcher mønstret `/a.[bc]+/` ?
-
-1. abc
-2. abbbbbbbb
-3. azc
-4. abcbcbcbc
-5. ac
-6. asccbbbbcbcccc
-
-## 1.11. Check match `/abc|xyz/`
-
-Hvilke af følgende strenge matcher mønstret `/abc|xyz/` ?
-
-1. abc
-2. xyz
-3. abc|xyz
-
-## 1.12. Check match `/[a-z]+[\.\?!]/`
-
-Hvilke af følgende strenge matcher mønstret `/[a-z]+[\.\?!]/` ?
-
-1. battle!
-2. Hot
-3. green
-4. swamping.
-5. jump up.
-6. undulate?
-7. is.?
-
-## 1.13. Check match `/[a-zA-Z]*[^,]=/`
-
-Hvilke af følgende strenge matcher mønstret `/[a-zA-Z]*[^,]=/` ?
-
-1. Butt=
-2. BotHEr,=
-3. Ample
-4. FIdD1E7h=
-5. Brittle =
-6. Other.=
-
-## 1.14. Check match `/[a-z][\.\?!]\s+[A-Z]/`
-
-Hvilke af følgende strenge matcher mønstret `/[a-z][\.\?!]\s+[A-Z]/` ?
-
-1. A. B
-2. c! d
-3. e f
-4. g.  H
-5. i? J
-6. k L
-
-## 1.15. Check match `/<[^>]+>/`
-
-Hvilke af følgende strenge matcher mønstret `/<[^>]+>/` ?
-```
-   1. <an xml tag>
-   2. <opentag><closetag>
-   3. </closetag>
-   4. <>
-   5. <with attribute="77">
-```
 
