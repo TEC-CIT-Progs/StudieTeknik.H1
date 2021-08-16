@@ -1,7 +1,7 @@
 # 1. RegEx opgaver
 
 __Kopier svarene ind i en tekst fil.__
-## 1.9. Check match `/ab+c?/`
+## 1.1. Check match `/ab+c?/`
 
 Hvilke af følgende strenge matcher mønstret `/ab+c?/` ?
 
@@ -10,7 +10,7 @@ Hvilke af følgende strenge matcher mønstret `/ab+c?/` ?
 3. abbb
 4. bbc
 
-## 1.10. Check match `/a.[bc]+/`
+## 1.2. Check match `/a.[bc]+/`
 
 Hvilke af følgende strenge matcher mønstret `/a.[bc]+/` ?
 
@@ -21,7 +21,7 @@ Hvilke af følgende strenge matcher mønstret `/a.[bc]+/` ?
 5. ac
 6. asccbbbbcbcccc
 
-## 1.11. Check match `/abc|xyz/`
+## 1.3. Check match `/abc|xyz/`
 
 Hvilke af følgende strenge matcher mønstret `/abc|xyz/` ?
 
@@ -29,7 +29,7 @@ Hvilke af følgende strenge matcher mønstret `/abc|xyz/` ?
 2. xyz
 3. abc|xyz
 
-## 1.12. Check match `/[a-z]+[\.\?!]/`
+## 1.4. Check match `/[a-z]+[\.\?!]/`
 
 Hvilke af følgende strenge matcher mønstret `/[a-z]+[\.\?!]/` ?
 
@@ -41,7 +41,7 @@ Hvilke af følgende strenge matcher mønstret `/[a-z]+[\.\?!]/` ?
 6. undulate?
 7. is.?
 
-## 1.13. Check match `/[a-zA-Z]*[^,]=/`
+## 1.5. Check match `/[a-zA-Z]*[^,]=/`
 
 Hvilke af følgende strenge matcher mønstret `/[a-zA-Z]*[^,]=/` ?
 
@@ -52,7 +52,7 @@ Hvilke af følgende strenge matcher mønstret `/[a-zA-Z]*[^,]=/` ?
 5. Brittle =
 6. Other.=
 
-## 1.14. Check match `/[a-z][\.\?!]\s+[A-Z]/`
+## 1.6. Check match `/[a-z][\.\?!]\s+[A-Z]/`
 
 Hvilke af følgende strenge matcher mønstret `/[a-z][\.\?!]\s+[A-Z]/` ?
 
@@ -63,7 +63,7 @@ Hvilke af følgende strenge matcher mønstret `/[a-z][\.\?!]\s+[A-Z]/` ?
 5. i? J
 6. k L
 
-## 1.15. Check match `/<[^>]+>/`
+## 1.7. Check match `/<[^>]+>/`
 
 Hvilke af følgende strenge matcher mønstret `/<[^>]+>/` ?
 ```
@@ -77,7 +77,7 @@ Hvilke af følgende strenge matcher mønstret `/<[^>]+>/` ?
 
 De næste opgaver løses på https://extendsclass.com/regex-tester.html
 
-## 1.1. Drengene
+## 1.8. Drengene
 
 I teksten
 
@@ -85,7 +85,7 @@ I teksten
 
 Find alle drengene (_vink_: brug `m1|m2|m3 ... `)
 
-## 1.2. Pigerne
+## 1.9. Pigerne
 
     Liselotte, Charlotte, Pernille og Lotte
 
@@ -119,24 +119,24 @@ I følgende opgaver, brug teksten:
     120,Roseline,Cyrie,76916797,Roseline.Cyrie@yopmail.com,2003-08-28
 
 
-## 1.3. Født i 1995
+## 1.10. Født i 1995
 
 Hvor mange er født i 1995
 
-## 1.4. Omvendt email
+## 1.11. Omvendt email
 
 Alle brugerne har fået oprettet emails hvor deres fornavn står før efternavnet. Det svarer _ikke_ til den formelle form. 
 Byt om så efternavnet står forrest!
 
-## 1.5. Landekode
+## 1.12. Landekode
 
 Telefonnumrene mangler landekode. Tilføj `+45` til telefonumrene.
 
-## 1.6. Måneder med navn
+## 1.13. Måneder med navn
 
 Ud skift tallet for måned i fødselsdagene så der står tre bogstaver for den engelske forkortelse af månedens navn. `05` => `may`, `12` => `dec`.
 
-## 1.7. Danske telefonnumre
+## 1.14. Danske telefonnumre
 
 I Danmark har alle telefonnumre 8 cifre! Men de kan skrives forskelligt, ved at adskille forskelligt. 
 Lav søg-erstat-mønster som genkender 8-cifrede numre uanset hvordan der er mellemrum.
@@ -145,7 +145,7 @@ Godkend også numre med `+45`. Tilføj `+45 ` (og et mellemrum) hvis det mangler
 Hvilke danske numre er ikke på 8-cifre?
 Hvad med Fæøerne og Grøndland?
 
-## 1.8. email
+## 1.15. email
 
 Kan du lave et møster der genkender _alle_ gyldige emails?
 
