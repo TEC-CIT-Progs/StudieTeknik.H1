@@ -21,3 +21,5 @@ I en af de sidste skoleperioder, op mod svendeprøven tager vi et mindre forløb
 
  * skrivning af større opgaver, og 
  * organisering af gruppearbejde
+
+Se også det daglige flow i [Wiki'en](https://github.com/TEC-CIT-Progs/StudieTeknik.H1/wiki)
